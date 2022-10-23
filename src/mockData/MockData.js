@@ -1,31 +1,15 @@
 export const postData = [
   {
-    img: "https://i.ibb.co/fvdtJJB/Social-Diary.png",
-    description: "Test post12",
-    likes: 30,
-    comments: ["nice"],
-    shares: 2,
-    time: "31m",
-    isPublic: true,
-    isPromoted: true,
-    user: {
-      name: "Lovish Tater",
-      img: "https://i.ibb.co/y8H6vSm/Lovish-Tater.jpg",
-      description:
-        "Full stack developer",
-    },
-  },
-  {
-    img: "https://i.ibb.co/fvdtJJB/Social-Diary.png",
-    description: "Test post453",
-    likes: 30,
+    img: "https://i.ibb.co/Nr823DY/1663337221556.jpg",
+    description:
+      "Zionverse has time and again proved that our community is our biggest strength. It is thus immensely crucial to maintain a touch base with every member to understand their needs and what we can do to make this platform better✨",
+    likes: 430,
     comments: ["nice"],
     shares: 2,
     user: {
-      name: "Lovish Tater 2",
-      img: "https://i.ibb.co/y8H6vSm/Lovish-Tater.jpg",
-      description:
-        "Full stack developer",
+      name: "Totality Corp",
+      img: "https://media.glassdoor.com/sqll/3076281/totality-india-squareLogo-1618210505391.png",
+      description: "100,000 Followers",
     },
     time: "31m",
     isPublic: true,
@@ -33,15 +17,30 @@ export const postData = [
   },
   {
     img: "https://i.ibb.co/fvdtJJB/Social-Diary.png",
-    description: "Test post435",
+    description:
+      "Hello Connections, I have recently Build an Social media application. Its published on Google Play.",
+    likes: 30,
+    comments: ["nice"],
+    shares: 2,
+    time: "31m",
+    isPublic: true,
+    isPromoted: false,
+    user: {
+      name: "Lovish Tater",
+      img: "https://i.ibb.co/y8H6vSm/Lovish-Tater.jpg",
+      description: "Full stack developer",
+    },
+  },
+  {
+    img: "https://i.ibb.co/gjQYqQP/Accurate-Datapng.jpg",
+    description: "Checkout the most useful linkedin sales Insights",
     likes: 30,
     comments: ["nice"],
     shares: 2,
     user: {
-      name: "Lovish Tater",
-      img: "https://i.ibb.co/y8H6vSm/Lovish-Tater.jpg",
-      description:
-        "Full stack developer",
+      name: "LinkedIn Sales",
+      img: "https://i.ibb.co/gjQYqQP/Accurate-Datapng.jpg",
+      description: "100,782 Followers",
     },
     time: "31m",
     isPublic: true,

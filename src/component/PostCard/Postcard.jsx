@@ -19,7 +19,7 @@ const Postcard = ({
     <div className="post_item">
       <div className="post_item_header">
         <div className="post_item_info">
-          <img src={user.img} alt="no image" className="post_profile" style={{height: "60px"}} />
+          <img src={user.img} alt="no image" className="post_profile" style={{height: "50px"}} />
           <div className="post_item_owner" style={{marginLeft: "8px"}}>
             <a href="#" className="act_title">
               {user.name}
