@@ -1,0 +1,147 @@
+:root {
+    --message: rgba(0, 0, 0, 0.6);
+    --border_color: rgba(0, 0, 0, .15);
+}
+
+
+.post_item {
+    background-color: white;
+    /* border: 2px solid var(--border_color); */
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.post_item_header {
+    padding: 10px;
+}
+
+.post_item {
+    margin-bottom: 10px;
+}
+
+
+.post_item_owner>a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4 rem;
+    font-weight: 600;
+}
+
+.post_item_owner>a:hover {
+    color: blue;
+}
+
+
+.post_item_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.post_item_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post_item_body_info {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.post_item_body_info>p {
+    font-size: 0.8rem;
+}
+
+.post_item_header>i:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 500px;
+
+}
+
+
+.post_item_body_info>p {
+    padding: 10px 0px;
+    font-size: 1.05rem;
+    color: black;
+}
+
+.post_item_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    flex-wrap: wrap;
+
+}
+
+.post_item_footer>.post-action {
+    margin-right: 10px;
+    color: black;
+    font-size: 0.7 rem;
+}
+
+.post-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.post-action:hover {
+    background-color: lightgrey;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.post-action>i {
+    font-weight: 600;
+    color: var(--message);
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+
+.like_count_container {
+    margin: 4px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.svgGroup{
+    position: relative;
+    display: inline-flex;
+    margin-right: 20px;
+}
+.svgGroup>.move1{
+    position: absolute;
+    left: 10px;
+}
+.svgGroup>.move2 {
+    position: absolute;
+    left: 20px;
+}
+.like_count_container>span {
+    line-height: 2;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/* .ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+@media screen and (max-width:830px) {
+    .posts {
+        max-width: 100%;
+        width: 90%;
+    }
+
+    .action-name {
+        display: none;
+    }
+}

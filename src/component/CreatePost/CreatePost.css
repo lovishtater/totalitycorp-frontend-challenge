@@ -1,0 +1,82 @@
+.profile {
+    height: 50px;
+    border-radius: 50%;
+    margin:4px;
+}
+
+.post_box {
+    padding: 15px;
+    padding-bottom: 0px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: var(rgba(0, 0, 0, .6));
+    font-weight: 600;
+}
+
+.input_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.input_option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.option {
+    margin-right: 10px;
+}
+
+.input_option {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.input_option:hover {
+
+    background: rgba(0, 0, 0, .15);
+    cursor: pointer;
+}
+
+.post_input {
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #6e6558;
+    border-radius: 500px;
+    outline: none;
+    color: black;
+
+}
+
+.option_text {
+    font-size: 0.9rem;
+    font-weight: var(--message_font_weight);
+}
+
+.post_input:hover {
+    background: transparent;
+}
+
+.input_blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width:830px) {
+    .option_text {
+        display: none;
+    }
+        .post{
+            max-width: 100%;
+            width: 90%;
+        }
+}
