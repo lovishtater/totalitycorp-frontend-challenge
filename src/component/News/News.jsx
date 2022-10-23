@@ -29,9 +29,6 @@ const News = () => {
             </div>
           </div>
         ))}
-        <div style={{marginLeft: "25px", }} >
-            Show More
-        </div>
       </div>
 
       <div class="sidebar-useful-links">
