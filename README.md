@@ -20,7 +20,8 @@
 
   It is responsive for both desktop and mobile. 
  
- ![WhatsApp Image 2022-10-23 at 19 29 22](https://user-images.githubusercontent.com/84665079/197404744-8fe79aed-3496-4074-a527-e7411877cb06.jpg)
+ 
+![image](https://user-images.githubusercontent.com/59690614/197420259-0f1c923f-3f9c-4dcd-82e8-afae37916fdb.png)
 
 ## 🚀 Technologies
 
