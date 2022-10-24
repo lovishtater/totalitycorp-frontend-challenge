@@ -39,3 +39,12 @@ div#feed-sort button span.bi {
     font-size: 15px;
     padding: 0 2px;
 }
+
+.load-more {
+     border: 2px solid #7e8082;
+     color:#7e8082;
+     text-align: center;
+     padding: 5px;
+     margin: 10px;
+     border-radius: 500px;
+}

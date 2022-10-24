@@ -19,6 +19,9 @@ const Feed = () => {
       {postData.map((data) => (
         <Postcard {...data} />
       ))}
+      <div className="load-more">
+      Load more 
+      </div>
     </div>
   );
 };
