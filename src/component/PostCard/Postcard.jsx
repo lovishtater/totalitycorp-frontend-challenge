@@ -21,7 +21,7 @@ const Postcard = ({
         <div className="post_item_info">
           <img src={user.img} alt="no image" className="post_profile" style={{height: "50px"}} />
           <div className="post_item_owner" style={{marginLeft: "8px"}}>
-            <a href="#" className="act_title">
+            <a href="#" className="title-text">
               {user.name}
             </a>
             <p className="caption-text">{user.description}</p>

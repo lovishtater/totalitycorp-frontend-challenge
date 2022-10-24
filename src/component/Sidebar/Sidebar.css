@@ -11,7 +11,7 @@
     display: flex;
     margin: 10px;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid black;
     flex-direction: column;
     min-width: 200px;
@@ -21,6 +21,9 @@
 .profile_header {
     background-image: url("../../assets/LinkedinBanner.png");
     height: 70px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
     background-size: cover;
 }
 
@@ -34,7 +37,8 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    border: 2px solid rgba(0, 0, 0, .15);
+    border-top: 8px solid #f8c77e;
+    /* border: 2px solid rgba(0, 0, 0, .15); */
     margin-bottom: 10px;
     width: 100%;
     background-color: white;
@@ -102,8 +106,9 @@ a {
 }
 
 .sidebar_title {
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     font-size: var(--message_font_size);
+    font-weight: 600;
 
 }
 

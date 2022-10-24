@@ -46,7 +46,7 @@
 }
 
 
-.act_title {
+.title-text {
     font-size: va(--message_title_size);
     font-weight: var(--message_font_weight);
 
@@ -90,6 +90,17 @@
 .copyright-msg img {
     width: 18px;
     margin-right: 4px;
+}
+
+.show-more{
+    padding-left: 30px;
+    color: #8f8c88;
+    font-weight: 600;
+}
+
+.show-more:hover{
+    background: rgba(0, 0, 0, .15);
+        cursor: pointer;
 }
 
 @media screen and (min-width:830px) and (max-width:1200px) {

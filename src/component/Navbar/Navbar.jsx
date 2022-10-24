@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png"
 import displayPic from "../../assets/Lovish_Tater.jpeg"
 import "./Navbar.css"
+import ProfileOptionModal from "./ProfileOptionModal";
 
 const Navbar = () => {
   return (
@@ -104,43 +105,7 @@ const Navbar = () => {
                 >
                   <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"></path>
                 </svg>
-                <div className="dropdown-content">
-                  <div className="dropdown_profile">
-                    <img
-                      src={displayPic}
-                      style={{
-                        height: "50px",
-                        objectFit: "contain",
-                        borderRadius: "50px",
-                        paddingRight: "10px",
-                      }}
-                      alt="noimage"
-                    />
-                    <div>
-                      <div className="act_title">Lovish Tater</div>
-                      <div className="acoount_name">
-                        FE Intern @Bytelearn || Enjoying JavaScript || Full stack dev. (MERN) ||
-                        Computer science || Software Engineer
-                      </div>
-                    </div>
-                  </div>
-                  <div className="profile_view_button">View profile</div>
-
-                  <div className="bdr_bottom"></div>
-                  <div className="title" style={{color: "black"}}>
-                    Accounts
-                  </div>
-                  <div className="list">Settings & Privacy</div>
-                  <div className="list">Help</div>
-                  <div className="list bdr_bottom">Language</div>
-
-                  <div className="title" style={{color: "black"}}>
-                    Manage
-                  </div>
-                  <div className="list">Post & Activity</div>
-                  <div className="list bdr_bottom">Job Postion Account</div>
-                  <div className="list">sign out</div>
-                </div>
+                <ProfileOptionModal />
               </div>
             </div>
           </div>

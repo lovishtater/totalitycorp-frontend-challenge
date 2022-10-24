@@ -8,7 +8,15 @@ const Feed = () => {
   return (
     <div class="posts">
       <CreatePost />
-      {postData.map((data)=>(
+      <div id="feed-sort">
+        <hr />
+        <button>
+          <span>Sort by:</span>
+          <strong>Top</strong>
+          <span class="bi bi-caret-down-fill"></span>
+        </button>
+      </div>
+      {postData.map((data) => (
         <Postcard {...data} />
       ))}
     </div>

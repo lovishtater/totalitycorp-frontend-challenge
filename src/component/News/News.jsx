@@ -4,6 +4,7 @@ import "./News.css"
 import logo from "../../assets/logo.png"
 
 const News = () => {
+  const [newsLength, setNewsLength] = React.useState(5);
   return (
     <div className="right_sidebar">
       <div className="news">
@@ -12,10 +13,10 @@ const News = () => {
           <i className="bi bi-info-square-fill" style={{fontSize: "15px"}}></i>
         </div>
         <br />
-        {newsData.map(({title, time, views}) => (
+        {newsData.slice(0,newsLength).map(({title, time, views}) => (
           <div className="new_list">
             <div
-              className="act_title"
+              className="title-text"
               style={{display: "flex", flexDirection: "row", alignItems: "flex-start"}}
             >
               <i
@@ -29,6 +30,15 @@ const News = () => {
             </div>
           </div>
         ))}
+        {newsLength <=5 ?(
+        <div className="show-more" onClick={()=> setNewsLength(10)}>
+          Show more 
+        </div>
+        ):(
+        <div className="show-more" onClick={()=> setNewsLength(5)}>
+          Show less 
+        </div>
+        )}
       </div>
 
       <div class="sidebar-useful-links">

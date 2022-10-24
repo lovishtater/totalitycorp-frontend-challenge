@@ -1,15 +1,15 @@
 import React from "react";
 import displayPic from "../../assets/Lovish_Tater.jpeg";
-import coverPic from "../../assets/LinkedinBanner.png";
+import { ReactComponent as Premium } from "../../assets/premium.svg";
 import "./Sidebar.css"
 const Sidebar = () => {
   return (
     <div className="sidebar" style={{border: "none"}}>
       <div className="sidebar_first_col">
-        <div
-          className="profile_header"
-          style={{borderTopLeftRadius: "10px", borderTopRightRadius: "10px"}}
-        ></div>
+        <div className="profile_header">
+          &nbsp;{" "}
+          <Premium />
+        </div>
         <img
           src={displayPic}
           alt="noimage"
@@ -23,7 +23,7 @@ const Sidebar = () => {
         />
 
         <div className="profile_info">
-          <p style={{textAlign: "center"}} className="act_title">
+          <p style={{textAlign: "center"}} className="title-text">
             Lovish Tater
           </p>
           <p className="caption-text">
@@ -91,9 +91,7 @@ const Sidebar = () => {
 
           <div className="sidebar_second_text"># JavaScript Developer</div>
         </div>
-        <div className="sidebar_title blue-text">
-          Groups
-        </div>
+        <div className="sidebar_title blue-text">Groups</div>
 
         <div className="recent">
           <div className="sidebar_second_text">
@@ -106,9 +104,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="sidebar_title blue-text">
-          Followed Hashtags
-        </div>
+        <div className="sidebar_title blue-text">Followed Hashtags</div>
 
         <div className="recent">
           <div className="sidebar_second_text"># Personaldevelopment</div>
