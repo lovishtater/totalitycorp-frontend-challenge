@@ -89,13 +89,13 @@
 
 .info {
     position: absolute;
-    top: -5px;
+    top: -4px;
     right: -5px;
     background-color: rgb(224, 40, 40);
     color: white;
     padding: 0px 4px;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     border-radius: 50%;
 }
 
