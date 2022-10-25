@@ -20,11 +20,11 @@
 
 .profile_header {
     background-image: url("../../assets/LinkedinBanner.png");
+    background-size: cover;
     height: 70px;
     color: #fff;
     font-size: 12px;
     letter-spacing: 1px;
-    background-size: cover;
 }
 
 .sidebar_first_col>.profile_info {
@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    border-top: 8px solid #f8c77e;
+    border-top: 6px solid #f8c77e;
     /* border: 2px solid rgba(0, 0, 0, .15); */
     margin-bottom: 10px;
     width: 100%;

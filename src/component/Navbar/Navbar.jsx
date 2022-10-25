@@ -87,13 +87,13 @@ const Navbar = () => {
 
         <div className="header_right_2">
           <div className="nav_link">
-            <div className="nav_icon">
+            <div className="nav_icon dropdown">
               <img
                 src={displayPic}
                 alt="non"
                 style={{height: "30px", objectFit: "contain", borderRadius: "50px"}}
               />
-              <div className="nav_text dropdown drop">
+              <div className="nav_text ">
                 Me
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
