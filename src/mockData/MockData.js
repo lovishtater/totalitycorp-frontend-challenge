@@ -62,6 +62,22 @@ export const postData = [
     isPublic: true,
     isPromoted: true,
   },
+  {
+    img: "https://i.ibb.co/MsS9FcR/1661244068108.jpg",
+    description:
+      "Team Zionverse presents Ganesha NFT Art Contest!! 🥁🥁 \n Ganesh Chaturthi is just around the corner. We invite you all to celebrate it with Team Zionverse by preparing elegant digital art of Lord Ganesha! \n The art will be bought in exchange for a lucrative amount from the top 3 winners as an NFT!!",
+    likes: 370,
+    comments: [],
+    shares: 142,
+    user: {
+      name: "Zionverse",
+      img: "https://i.ibb.co/Qn6DYGb/download.jpg",
+      description: "13,782 Followers",
+    },
+    time: "3d",
+    isPublic: true,
+    isPromoted: false,
+  },
 ];
 
 export const newsData = [
